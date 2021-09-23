@@ -7,9 +7,10 @@ namespace listaexecircios01
         static void Main(string[] args)
         {
          //Variáveis dos dados
-         double percentual=0;
-             double valoralmento =0;
-            double valorAlmentado=0;
+             double percentual =   0 ;
+             double valoralmento = 0 ; 
+             double valorAlmentado = 0 ;
+             
              //Buscando o salário
              Console.WriteLine("Qual o salário do funcionário?");
             int salario = Convert.ToInt32(Console.ReadLine());

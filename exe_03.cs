@@ -16,6 +16,7 @@ namespace exercicio03
             int z = Convert.ToInt32(Console.ReadLine());
 
             if (x < y)
+
             {
                 if (x < z)  {
                     
@@ -25,7 +26,8 @@ namespace exercicio03
                     
                     Console .WriteLine(" O mais barato  é o Produto 03" + " no valor de " + z + " reais");
                     
-            }
+                }
+                
                 if (x > y)  {
 
 

@@ -14,14 +14,21 @@ namespace listaexecircios01
 
 //calculando a média e exibindo pro usuário
          double media= (nota01 + nota02) /2;
+
             if(media >= 7){
-Console.WriteLine("A sua média é: "+media+". parabenz! foi aprovado.");
+
+            Console.WriteLine("A sua média é: "+media+". parabenz! foi aprovado.");
+            
             }
+
             else
+
             {
                 Console.WriteLine("A sua média é: "+media+". infelismente foi reprovado.");
             }
+
             if(media = 10){
+                
                 Console.WriteLine("A sua média é: "+media+". Muito estudioso, continui assin!");
             }
         }
